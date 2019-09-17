@@ -93,7 +93,7 @@ func validateBridges(candidates <-chan string, bridges chan<- string) {
 		if !strings.Contains(str, "<deviceType>urn:schemas-upnp-org:device:Basic:1</deviceType>") {
 			continue
 		}
-		if !strings.Contains(str, "<manufacturer>Royal Philips Electronics</manufacturer>") {
+		if !strings.Contains(str, "<manufacturer>Signify</manufacturer>") {
 			continue
 		}
 		if !strings.Contains(str, "<modelURL>http://www.meethue.com</modelURL>") {
